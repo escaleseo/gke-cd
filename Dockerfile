@@ -7,4 +7,4 @@ RUN apk add --update libintl gettext
 
 RUN mkdir /scripts
 COPY gcloud-setup.sh /scripts
-RUN chmod -x /scripts/gcloud-setup.sh
+RUN chmod +x /scripts/gcloud-setup.sh
